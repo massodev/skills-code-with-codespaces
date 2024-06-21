@@ -20,5 +20,9 @@
              "codespace.md"
          ]
      }
- }
+ } ,
+  
+ // Execute code upon creation of the codespace
+ "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
+  
 }
